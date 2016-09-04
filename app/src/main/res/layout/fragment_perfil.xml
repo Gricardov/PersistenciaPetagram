@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/margin_top_circularview">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_marginTop="@dimen/margin_top_circularview"
+        android:layout_width="@dimen/circular_view_size"
+        android:layout_height="@dimen/circular_view_size"
+        android:src="@drawable/coraje7"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/circularview"
+        app:civ_border="false"
+            >
+    </com.mikhaellopez.circularimageview.CircularImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circularview"
+        android:text="Coraje"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textviewcoraje" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="@dimen/margin_top_circularview"
+        android:layout_below="@id/textviewcoraje"
+        android:id="@+id/recyclerviewperfil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>

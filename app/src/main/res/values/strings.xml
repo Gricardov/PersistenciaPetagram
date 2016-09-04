@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="nombrePerro">Perro</string>
+    <string name="likes">0</string>
+    <string name="idLikesPerros">idlikes</string>
+
+    <string name="numerodelikes">Número de likes</string>
+
+    <string name="dedicatoria">Esta aplicación va dedicada a mi hermosa Arenita, la que me inspira con su cariño cada día.</string>
+    <string name="sobremi">Giovanni Ricardo nació en Adrianópolis el día 30 de febrero del año 1995. Asistió a la universidad de Adrianópolia y se graduó de filosofía forestal. Con tan solo 21 años ya es dueño de la compañia de programación "Arena" y la cadena de resturantes choripaneros "Brendita". Actualmente reside en Kubinsh.</string>
+
+    <string name="menuContacto">Contacto</string>
+    <string name="menuAcercaDe">Acerca de</string>
+    <string name="menuMasInformacion">Más información</string>
+    <string name="menuVerFavoritos">Favoritos</string>
+
+
+    <string name="hint_name">Nombre</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_mensaje">Mensaje</string>
+    <string name="btn_enviar">Enviar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

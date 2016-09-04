@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/alto_cardview"
+    android:src="@drawable/coraje"
+    android:layout_margin="@dimen/margen_cardview"
+    app:cardCornerRadius="@dimen/cardCorner"
+    >
+  <!-- card_view:cardCornerRadius="@dimen/cardCorner"-->
+
+
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_height="@dimen/imagen"
+            android:layout_width="match_parent"
+            android:src="@drawable/coraje"
+            android:id="@+id/imagenPerro"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bone"
+                android:id="@+id/imagenHueso"
+                android:layout_alignParentLeft="@dimen/margenElementosCardview"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombrePerro"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/imagenHueso"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/nombrePerro"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/likebone"
+                android:layout_alignParentRight="true"
+                android:id="@+id/huesolike"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/likes"
+                android:layout_toLeftOf="@id/huesolike"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:id="@+id/likesPerro"
+                android:layout_marginRight="@dimen/margenElementosCardview"
+
+                />
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
